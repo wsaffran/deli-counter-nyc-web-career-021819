@@ -7,7 +7,7 @@ def line(katz_deli)
     deli.each.with_index(1) do |person, i|
       current_line << " #{i}. #{person}"
     end
-    puts "The line is currently: #{line_positions.join(" ")}"
+    puts "The line is currently: #{current_line.join}"
   end
 end
 
